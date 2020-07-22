@@ -1,0 +1,8 @@
+version: "3"
+services:
+  dockhot-image:
+    build: ./
+    ports:
+      - '80:80'
+    volumes:
+      - ./:/app
