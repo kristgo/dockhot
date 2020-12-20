@@ -1,4 +1,4 @@
-// Create docker container and push it to Github
+// Pushing created docker container to Github
 package main
 
 import (
@@ -12,7 +12,7 @@ func main() {
 	r := mux.NewRouter()
 
 	r.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Welcome to this life-changing API.\nIts the best API, its true, all other API's are fake.")
+		fmt.Fprintf(w, "Welcome to the gorilla/mux API.\nIt is the best API on Golang.")
 	})
 
 	fmt.Println("Server listening!")
