@@ -13,6 +13,6 @@ git commit -m "release v2"
 
 git push -u origin master
 
-enter Username for 'https://github.com': Username
+Enter username for 'https://github.com': Username
 
-enter Password for 'https://yourname@github.com': Password
+Enter password for 'https://yourname@github.com': Password
